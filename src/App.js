@@ -5,13 +5,23 @@ import {
   Blog,
   Possibility,
   Features,
-  whatGPT3,
+  WhatGPT3,
   Header,
 } from "./containers";
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 };
